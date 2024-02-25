@@ -1,0 +1,63 @@
+body {
+	background: black;
+}
+
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	font-family: "Kode Mono", monospace;
+	width: 350px;
+	height: 50px;
+	margin: auto;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.postcard p {
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.body-left p:nth-child(1) {
+	margin-top: auto;
+}
+
+.body-left,
+.body-right {
+	padding: 5px;
+}
+
+input {
+	border-style: none none solid none;
+	border-color: #8c8c8c;
+	margin-bottom: 10px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: #c0c0c0;
+	padding: 3px;
+	font-family: "Audiowide", sans-serif;
+}
